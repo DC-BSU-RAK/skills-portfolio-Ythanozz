@@ -9,7 +9,7 @@ class StudentManager:
         self.root.geometry("600x400")
         self.root.configure(bg='black')
         
-        #Load student data using the same approach as your joke app
+        #Used Same structure of loading data with exercise 2
         self.students = self.load_student_data()
         
         #Create main menu
@@ -18,7 +18,6 @@ class StudentManager:
     def load_student_data(self):
         """Load student data from the text file using the same path as your joke app"""
         try:
-            #Using the exact file path structure as your joke app including A1 - Resources
             file_path = r"C:\Users\ythan\OneDrive\Documents\GitHub\skills-portfolio-Ythanozz\Assessment 1 - Skills Portfolio\A1 - Resources\studentMarks.txt"
             
             #Show the path being used for debugging
